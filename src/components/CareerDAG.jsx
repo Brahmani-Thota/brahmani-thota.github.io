@@ -4,7 +4,7 @@ import './CareerDAG.css';
 const nodes = [
   {
     id: 'ibm',
-    task: 'python_developer_intern',
+    task: 'Python Developer Intern',
     org: 'IBM — Quantum Computing',
     period: 'Jun 2020 – May 2021',
     status: 'success',
@@ -16,7 +16,7 @@ const nodes = [
   },
   {
     id: 'palantir',
-    task: 'data_engineer_i',
+    task: 'Data Engineer 1',
     org: 'Centene — Palantir Team',
     period: 'Aug 2021 – Dec 2023',
     status: 'success',
@@ -28,7 +28,7 @@ const nodes = [
   },
   {
     id: 'snowflake',
-    task: 'data_engineer_ii',
+    task: 'Data Engineer 2',
     org: 'Centene — Snowflake Transition Team',
     period: 'Jan 2024 – Feb 2025',
     status: 'success',
@@ -40,7 +40,7 @@ const nodes = [
   },
   {
     id: 'production',
-    task: 'data_engineer_ii',
+    task: 'Data Engineer 2',
     org: 'Centene — Production Team',
     period: 'Mar 2025 – Present',
     status: 'running',
@@ -55,7 +55,7 @@ const nodes = [
 const branches = [
   {
     id: 'teensmart',
-    task: 'fellowship/teensmart_ml',
+    task: 'Fellowship — TeenSmart ML',
     org: 'Delta Analytics — TeenSmart International',
     period: 'Feb 2023 – Jul 2023',
     status: 'branch',
@@ -68,7 +68,7 @@ const branches = [
   },
   {
     id: 'sanctuary',
-    task: 'fellowship/project_sanctuary',
+    task: 'Fellowship — Project Sanctuary',
     org: 'Delta Analytics — Project Sanctuary',
     period: 'Feb 2025 – Jun 2025',
     status: 'branch',
@@ -80,7 +80,7 @@ const branches = [
   },
   {
     id: 'tazama',
-    task: 'fellowship/tazama',
+    task: 'Fellowship — Tazama',
     org: 'Delta Analytics — Tazama Project',
     period: 'Feb 2026 – Jun 2026',
     status: 'branch',
@@ -101,7 +101,7 @@ export default function CareerDAG() {
   return (
     <section className="section dag-section" id="experience">
       <div className="container">
-        <p className="eyebrow">career.dag — 4 tasks, 3 branches</p>
+        <p className="eyebrow">career.log — 4 tasks, 3 branches</p>
         <h2 className="section-title">The pipeline so far</h2>
         <p className="section-desc">
           Four years running end-to-end, from a quantum-computing internship to owning production
