@@ -3,6 +3,7 @@ import CareerDAG from './components/CareerDAG';
 import Metrics from './components/Metrics';
 import CaseStudies from './components/CaseStudies';
 import Skills from './components/Skills';
+import Recommendations from './components/Recommendations';
 import Contact from './components/Contact';
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
       <Metrics />
       <CaseStudies />
       <Skills />
+      <Recommendations />
       <Contact />
     </>
   );

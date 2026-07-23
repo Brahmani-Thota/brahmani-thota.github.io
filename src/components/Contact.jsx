@@ -19,17 +19,9 @@ export default function Contact() {
             <span className="contact-key">linkedin</span>
             <span className="contact-value">/in/brahmani-thota</span>
           </a>
-          <a href="tel:9082907971" className="contact-card">
-            <span className="contact-key">phone</span>
-            <span className="contact-value">908-290-7971</span>
-          </a>
-          <a href="https://github.com/brahmani-thota" target="_blank" rel="noreferrer" className="contact-card">
-            <span className="contact-key">github</span>
-            <span className="contact-value">@brahmani-thota</span>
-          </a>
         </div>
 
-        <p className="footer-note">Windsor Mill, Maryland · Built with React + Vite · Deployed on GitHub Pages</p>
+        <p className="footer-note">Built with React + Vite · Deployed on GitHub Pages</p>
       </div>
     </footer>
   );

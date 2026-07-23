@@ -18,8 +18,6 @@ export default function Hero() {
           <span className="status-dot" />
           <span>open to opportunities</span>
           <span className="statusbar-sep">/</span>
-          <span>Windsor Mill, MD</span>
-          <span className="statusbar-sep">/</span>
           <span>{timeStr} ET</span>
         </div>
 
@@ -37,6 +35,7 @@ export default function Hero() {
             </p>
             <div className="hero-actions">
               <a href="#experience" className="btn btn-primary">View the pipeline →</a>
+              <a href="/Brahmani-Thota-Resume.pdf" download className="btn btn-ghost">Download resume</a>
               <a href="#contact" className="btn btn-ghost">Get in touch</a>
             </div>
           </div>
