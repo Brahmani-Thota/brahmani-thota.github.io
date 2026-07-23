@@ -45,7 +45,7 @@ const nodes = [
     period: 'Mar 2025 – Present',
     status: 'running',
     details: [
-      'Own end-to-end monthly financial reporting pipelines (SQL, Snowflake, dbt) across 60–70 hospitals.',
+      'Own end-to-end monthly financial reporting pipelines (SQL, Snowflake, dbt) for Medicaid and Medicare programs.',
       'Provisioned AWS Glue/S3 via Terraform; built ingestion pipelines cutting manual validation effort 60%.',
       'Shipped Power BI dashboards surfacing revenue leakage and duplicate claims — accelerated close cycles ~40%.',
     ],

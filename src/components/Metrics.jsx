@@ -19,7 +19,7 @@ export default function Metrics() {
         <h2 className="section-title">Impact, quantified</h2>
         <p className="section-desc">
           Every pipeline change gets measured against the reporting cycle it feeds.
-          These are the numbers from four years of production healthcare financial data work.
+          These are the numbers from four years of production financial data work.
         </p>
         <div className="metrics-grid">
           {metrics.map((m) => (

@@ -7,7 +7,7 @@ export default function Contact() {
         <p className="eyebrow">contact.env</p>
         <h2 className="section-title">Let's talk data</h2>
         <p className="section-desc">
-          Open to Senior / Data Engineer roles in healthcare and financial data platforms.
+          Open to Senior / Data Engineer roles working with regulated, high-stakes financial data — healthcare, fintech, or beyond.
         </p>
 
         <div className="contact-grid">
@@ -19,9 +19,11 @@ export default function Contact() {
             <span className="contact-key">linkedin</span>
             <span className="contact-value">/in/brahmani-thota</span>
           </a>
+          <a href="tel:9082907971" className="contact-card">
+            <span className="contact-key">phone</span>
+            <span className="contact-value">908-290-7971</span>
+          </a>
         </div>
-
-        <p className="footer-note">Built with React + Vite · Deployed on GitHub Pages</p>
       </div>
     </footer>
   );

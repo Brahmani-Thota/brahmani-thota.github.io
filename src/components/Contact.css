@@ -2,14 +2,14 @@
 
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1px;
   background: var(--border-soft);
   border: 1px solid var(--border-soft);
   border-radius: var(--radius-lg);
   overflow: hidden;
   margin-bottom: 40px;
-  max-width: 560px;
+  max-width: 760px;
 }
 
 .contact-card {

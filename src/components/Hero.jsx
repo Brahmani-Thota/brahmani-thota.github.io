@@ -3,7 +3,6 @@ import './Hero.css';
 
 const metrics = [
   { value: '5+', label: 'yrs experience' },
-  { value: '60–70', label: 'hospitals served' },
   { value: '4.0', label: 'GPA, UMBC' },
 ];
 
@@ -27,11 +26,12 @@ export default function Hero() {
             <h1 className="hero-title">
               Brahmani Thota
             </h1>
-            <p className="hero-role">Senior Data Engineer — Healthcare Financial Platforms</p>
+            <p className="hero-role">Senior Data Engineer — Regulated Financial Data Platforms</p>
             <p className="hero-desc">
-              I build and troubleshoot the pipelines that Medicaid and Medicare financial
-              reporting runs on — Snowflake, dbt, AWS Glue, PySpark — across a network of
-              60–70 hospitals at Centene. Previously: Palantir Foundry, quantum computing at IBM.
+              I build and troubleshoot the pipelines that regulated financial reporting
+              runs on — Snowflake, dbt, AWS Glue, PySpark — currently at Centene, a
+              Fortune 25 healthcare enterprise. Previously: Palantir Foundry, quantum
+              computing at IBM.
             </p>
             <div className="hero-actions">
               <a href="#experience" className="btn btn-primary">View the pipeline →</a>

@@ -42,6 +42,12 @@
   color: var(--text);
 }
 
+.rec-name-link {
+  display: inline-block;
+  transition: color 0.15s ease;
+}
+.rec-name-link:hover { color: var(--accent); }
+
 .rec-title {
   font-family: var(--font-mono);
   font-size: 12.5px;
