@@ -11,7 +11,7 @@ const recommendation = {
   ],
   name: 'John Heidbrink',
   title: 'Sr. Application Software Engineer, Centene',
-  linkedin: 'https://www.linkedin.com/in/john-heidbrink-09160614/',
+  linkedin: 'https://www.linkedin.com/in/brahmani-thota/details/recommendations/',
 };
 
 export default function Recommendations() {
@@ -28,15 +28,16 @@ export default function Recommendations() {
             ))}
           </div>
           <div className="rec-author">
+            <p className="rec-name">{recommendation.name}</p>
+            <p className="rec-title">{recommendation.title}</p>
             <a
               href={recommendation.linkedin}
               target="_blank"
               rel="noreferrer"
-              className="rec-name rec-name-link"
+              className="rec-verify-link"
             >
-              {recommendation.name} ↗
+              View on LinkedIn
             </a>
-            <p className="rec-title">{recommendation.title}</p>
           </div>
         </div>
       </div>

@@ -42,11 +42,15 @@
   color: var(--text);
 }
 
-.rec-name-link {
+.rec-verify-link {
   display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--accent-blue);
+  margin-top: 10px;
   transition: color 0.15s ease;
 }
-.rec-name-link:hover { color: var(--accent); }
+.rec-verify-link:hover { color: var(--accent); }
 
 .rec-title {
   font-family: var(--font-mono);
