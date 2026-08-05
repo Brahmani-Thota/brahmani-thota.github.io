@@ -29,9 +29,9 @@ export default function Hero() {
             <p className="hero-role">Senior Data Engineer — Regulated Financial Data Platforms</p>
             <p className="hero-desc">
               I build and troubleshoot the pipelines that regulated financial reporting
-              runs on — Snowflake, dbt, AWS Glue, PySpark — currently at Centene, a
-              Fortune 25 healthcare enterprise. Previously: Palantir Foundry, quantum
-              computing at IBM.
+              runs on — Snowflake, dbt, AWS Glue, PySpark, Terraform — currently at
+              Centene, a Fortune 25 healthcare enterprise. Previously: Palantir Foundry,
+              quantum computing at IBM.
             </p>
             <div className="hero-actions">
               <a href="#experience" className="btn btn-primary">View the pipeline →</a>
