@@ -104,7 +104,7 @@ export default function CareerDAG() {
         <p className="eyebrow">career.log — 4 tasks, 3 branches</p>
         <h2 className="section-title">The pipeline so far</h2>
         <p className="section-desc">
-          Four years running end-to-end, from a quantum-computing internship to owning production
+          Five years running end-to-end, from a quantum-computing internship to owning production
           financial reporting for Medicaid and Medicare. Select a node to inspect its run log.
         </p>
 
