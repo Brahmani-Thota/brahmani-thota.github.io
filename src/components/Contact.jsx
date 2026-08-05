@@ -7,7 +7,7 @@ export default function Contact() {
         <p className="eyebrow">contact.env</p>
         <h2 className="section-title">Let's talk data</h2>
         <p className="section-desc">
-          Open to Senior / Data Engineer roles working with regulated, high-stakes financial data — healthcare, fintech, or beyond.
+          Open to Data Engineer, AI Engineer, and Software Engineer (Backend Systems) roles working with regulated, high-stakes financial data — healthcare, fintech, or beyond.
         </p>
 
         <div className="contact-grid">

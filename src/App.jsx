@@ -1,4 +1,5 @@
 import Hero from './components/Hero';
+import Goal from './components/Goal';
 import CareerDAG from './components/CareerDAG';
 import Metrics from './components/Metrics';
 import CaseStudies from './components/CaseStudies';
@@ -10,6 +11,7 @@ export default function App() {
   return (
     <>
       <Hero />
+      <Goal />
       <CareerDAG />
       <Metrics />
       <CaseStudies />
